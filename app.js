@@ -8,7 +8,6 @@ function Accumulator(startingValue) {
        return this.currentValue
     };
 }
-
 let acc = new Accumulator(1);
 acc.read()
 // console.log(acc.show())
